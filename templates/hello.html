@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for city in cites %}
+    <h2>{{ city.name }}</h2>
+    <p>City id: {{ city.id }}</p>
+    <p>Zip_code: {{ city.zip_code }}</p>
+{% endfor %}
+{% endblock %}
