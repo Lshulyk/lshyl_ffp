@@ -1,20 +1,11 @@
 from flask import Flask, render_template
+from data.service_data import cities
 
 app = Flask(__name__)
 
 
 def get_cites():
-    return [
-        {'id': 1,
-         'name': 'Lviv',
-         'zip_code': 79007},
-        {'id': 2,
-         'name': 'Dolyna',
-         'zip_code': 77522},
-        {'id': 1,
-         'name': 'Ivano-Frankivs',
-         'zip_code': 76026}
-    ]
+    return cities
 
 
 @app.route('/')
