@@ -5,7 +5,7 @@ cities = [
     {'id': 2,
      'name': 'Dolyna',
      'zip_code': 77522},
-    {'id': 1,
+    {'id': 3,
      'name': 'Ivano-Frankivs',
      'zip_code': 76026}
 ]
